@@ -1,0 +1,40 @@
+body{
+    background-color: #395b64;
+}
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.table{
+    align-items: center;
+    display: grid;
+    justify-content: space-around;
+}
+
+.row{
+    display: flex;
+    width: 125px;
+    height: 25px;
+    border-width: 1px;
+}
+.box{
+    width: 25px;
+    height: 25px;
+    background-color: #16d1c5;
+}
+.head{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+    }
+}
+
+.check{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
