@@ -14,4 +14,5 @@ def msgHand(msg):
     print(msg)
 
 if __name__ == "__main__":
-    sock.run(app, port=5000)
+    sock.run(app)
+
